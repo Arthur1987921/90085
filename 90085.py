@@ -1,0 +1,12 @@
+print('解一元二次方程式:')
+print('輸入a值:')
+print('輸入b值:')
+print('輸入c值:')
+a=float(input('a:'))
+b=float(input('b:'))
+c=float(input('c:'))
+d=(b**2)-4*a*c
+x1=-b+(d**0.5)/2*a
+x2=-b-(d**0.5)/2*a
+print('x1=',x1)
+print('x2=',x2)
